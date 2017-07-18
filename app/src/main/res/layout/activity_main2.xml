@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.rushikesh.ria.Main2Activity">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/name"
+        android:textStyle="bold"
+        android:textSize="18dp"
+        android:gravity="center"
+        android:textColor="@color/colorPrimary"
+
+        android:layout_marginTop="35dp" />
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:id="@+id/prof_img"
+
+
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="77dp" />
+
+
+
+    <Button
+        android:id="@+id/send"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        android:text="SEND SMS"
+
+        android:layout_marginTop="30dp"
+        android:layout_below="@+id/edit"
+        android:layout_alignRight="@+id/prof_img"
+        android:layout_alignEnd="@+id/prof_img"
+        android:layout_alignLeft="@+id/prof_img"
+        android:layout_alignStart="@+id/prof_img" />
+
+
+    <Button
+        android:id="@+id/verify"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        android:layout_alignWithParentIfMissing="true"
+        android:background="@color/colorPrimary"
+        android:text="Verify"
+        android:visibility="invisible"
+        android:layout_below="@+id/prof_img"
+        android:layout_marginTop="165dp"
+        android:layout_alignLeft="@+id/prof_img"
+        android:layout_alignStart="@+id/prof_img"
+        android:layout_alignRight="@+id/prof_img"
+        android:layout_alignEnd="@+id/prof_img" />
+
+    <EditText
+        android:id="@+id/edit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Mobile No"
+        android:inputType="number"
+        android:layout_marginTop="92dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_below="@+id/prof_img"
+        android:layout_alignLeft="@+id/code"
+        android:layout_alignStart="@+id/code"
+        android:layout_alignRight="@+id/code"
+        android:layout_alignEnd="@+id/code" />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/code"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:inputType="number"
+        android:hint="Enter Code"
+        android:visibility="invisible"
+        android:layout_below="@+id/prof_img"
+        android:layout_marginTop="92dp"/>
+
+
+
+
+</RelativeLayout>

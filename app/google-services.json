@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "1055245840627",
+    "firebase_url": "https://ria-web.firebaseio.com",
+    "project_id": "ria-web",
+    "storage_bucket": "ria-web.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1055245840627:android:af569498b6ecd83c",
+        "android_client_info": {
+          "package_name": "com.example.rushikesh.ria"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1055245840627-5heidiiskk1aoe1tegbfvbqultdif6vs.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.rushikesh.ria",
+            "certificate_hash": "25e0b7aa291da089e512d0302159d7c49a31c6fd"
+          }
+        },
+        {
+          "client_id": "1055245840627-nuvt9kepj8h6hoq2a7cr8qo8lt6d8tip.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAu8crDPV8zJsrJJfi8ftUjkEAH7P-ZkHY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1055245840627-nuvt9kepj8h6hoq2a7cr8qo8lt6d8tip.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
